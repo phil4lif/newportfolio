@@ -46,6 +46,19 @@ nav{
 
    @media screen and (min-width: 608px){
     .myheader{
-        height:160px;
+        height:155px;
     }
    }
+@media screen and (max-width: 599px){
+    .githubicon{
+        height: 100px;
+        width: 100px;
+        /* margin-right: 20px; */
+        margin-bottom: 0px;
+    }
+    .linkedinicon{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 0px;
+    }
+}
