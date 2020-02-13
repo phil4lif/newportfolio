@@ -42,6 +42,9 @@ nav{
     margin: 0px;
     font-size: 18px; 
    } 
+.card-title{
+    background-color: black;
+}
 
 
    @media screen and (min-width: 608px){
