@@ -23,6 +23,7 @@ body{
     width: 120px;
     /* margin-right: 20px; */
     margin-bottom: 0px;
+    float: right;
 }
 .linkedinicon{
     height: 120px;
