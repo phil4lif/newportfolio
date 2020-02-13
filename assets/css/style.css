@@ -8,16 +8,6 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 
-.linkcard{
-    background-color: black;
-    height: 150px;
-    width: 320px;
-    position: absolute;
-    right: 0px;
-}
-.links{
-    display: inline;
-}
 .githubicon{
     height: 120px;
     width: 120px;
@@ -33,10 +23,6 @@ body{
 
 .cardlink {
     color: black;
-}
-nav{
-    height:120px;
-    background-color: black;
 }
 
 .bio{
