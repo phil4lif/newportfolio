@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <title>Phil Cowan</title>
+  <title>Philip Cowan</title>
 </head>
 
 <body>
@@ -18,33 +18,51 @@
     <!-- <div class="row container"> -->
       <div class="row">
         <div class="col s12 m3 l1">
-          <a href="#" class="brand-logo">
+          <a href="#" data-target="slide-out" class="sidenav-trigger">
             <h1 class=" white-text text-darken-3 lighten-3 name">Phil Cowan</h1>
           </a>
         </div>
-        <div class="col s6 m2 push-m3 l2 push-l7">
+        <div class="col s5 m3 push-m3 l2 push-l7">
           <a class="githubicon" href="https://github.com/phil4lif" target="_blank">
             <img class="githubicon" src="assets/images/githubicon.png" alt="Github icon"></a>
         </div>
-        <div class="col s6 push-s1 m2 push-m3 l1 push-l7">
+        <div class="col s5 push-s1 m2 push-m4 l1 push-l7">
           <a class="linkedinicon" href="https://www.linkedin.com/in/philip-cowan-510558195/" target="_blank">
             <img class="linkedinicon" alt="Linked in Icon" src="assets/images/linkedinlogo.png">
           </a>
         </div>
       </div>
     <!-- </div> -->
+    <!-- sidenav -->
   </div>
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="assets/images/tokyocolor.jpg">
+      </div>
+      <a href="#user"><img class="circle" src="assets/images/me.jpg"></a>
+      <a href="#bio"><span class="waves-effect shadow white-text ">Philip Cowan</span></a>
+      <a href="#email"><span class="shadow white-text email">philipjcowan1@gmail.com</span></a>
+    </div></li>
+    <li><a class="waves-effect" href="#projects"><i class="material-icons">work</i>Projects</a></li>
+    <li><a class="waves-effect" target="_blank" href="https://docs.google.com/document/d/1bMZOuBeTNz5tIoqBX3f2B9g0fsoChusGvkwpPAjH31w/edit?usp=sharing"><i class="material-icons">format_align_left
+    </i>Resume</a></li>
+    <li><div class="divider"></div></li>
+    <!-- <li><a class="subheader">Subheader</a></li> -->
+    <!-- <li><a class="waves-effect" href="#!">Third Link With Waves</a></li> -->
+  </ul>
+  
 
   <!-- top image  -->
   <div class="parallax-container">
     <div class="parallax"><img src="assets/images/milwaukee_skyline.jpg"></div>
   </div>
 
-  <div class="section black">
+  <div id="bio" class="section black">
     <div class="row container">
       <div class="row">
         <div class="col s12">
-          <h2 class="header white-text text-darken-3 lighten-3">Phil Cowan</h2>
+          <h2 class="header white-text text-darken-3 lighten-3">Philip Cowan</h2>
         </div>
       </div>
       <div class="picandbio">
@@ -176,7 +194,18 @@
 
     </div>
   </div>
-
+  <div class="parallax-container">
+    <div class="parallax"><img src="assets/images/sambglarge.jpg"></div>
+  </div>
+  <div id="bio" class="section black">
+    <div class="row container">
+      <div class="row">
+        <div class="col s12">
+          <h2 class="header white-text text-darken-3 lighten-3">"Never for money, always for love"<br> -David Byrne</h2>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- jquery link -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -186,6 +215,9 @@
     $(document).ready(function () {
       $('.parallax').parallax();
     });
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
   </script>
 </body>
 

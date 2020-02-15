@@ -32,7 +32,10 @@ body{
 .card-title{
     background-color: black;
 }
-
+.myheader {
+    padding:0px;
+    padding-top:10px;
+}
 
    @media screen and (min-width: 608px){
     .myheader{
