@@ -22,6 +22,9 @@ body{
     width: 120px;
     margin-bottom: 0px;
 }
+.parallax-container {
+    height: 800px;
+}
 
 .me {
     width: 100%;
