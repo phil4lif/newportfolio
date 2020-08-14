@@ -1,6 +1,10 @@
 body{
     background-color: black;
 }
+.carousel-item {
+    height: 300px;
+    width: 300px;
+}
 .name {
     margin: 0;
     /* font-size: 64px; */
