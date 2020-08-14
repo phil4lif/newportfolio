@@ -111,6 +111,7 @@
     <div class="carousel carousel-slider center">
       <div class="carousel-item white-text" id="project1" href="#one!">
         <h2>Food Truck Network</h2>
+        <span><a class="white-text" href="https://github.com/phil4lif/FoodTruck" target="_blank">Repo</a></span>
 
       </div>
 
@@ -118,7 +119,7 @@
         <h2>React Reading List</h2>
         <span>
           <a class="white-text" target="_blank" href="https://librarymern.herokuapp.com/">Live</a> |
-          <a class="white-text" target="_blank" href="https://github.com/phil4lif/mern-library">Github Repo</a>
+          <a class="white-text" target="_blank" href="https://github.com/phil4lif/mern-library">Repo</a>
         </span>
       </div>
 
@@ -324,7 +325,8 @@
         $('.parallax').parallax();
         $('.sidenav').sidenav();
         $('.scrollspy').scrollSpy();
-        $('.carousel.carousel-slider').carousel({
+        $('.carousel').carousel({
+          fullWidth: false,
           indicators: true
         });
       });
