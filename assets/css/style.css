@@ -1,8 +1,15 @@
 body{
     background-color: black;
 }
+
+#project1 {
+    background-image: url("../images/foodtruck.jpg");
+    background-size: cover;
+}
 #project2 {
     background-image: url("../images/valentin-rechitean-elFPAMiuxOo-unsplash.jpg");
+    background-size: cover;
+
 }
 .name {
     margin: 0;
