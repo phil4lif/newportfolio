@@ -70,15 +70,13 @@
     <div class="row container">
       <div class="row">
         <div class="col s12">
-          <h2 class="header white-text text-darken-3 lighten-3">Who Am I?</h2>
         </div>
       </div>
       <div class="picandbio">
         <div class="row">
-          <div class="col s12 m5 l4">
-            <img src="assets/images/headshot.jpg" alt="Phil Cowan" class="me">
+          <div class="col s12 m5 l4" >
+            <img src="assets/images/headshot.jpg" id="headshot" alt="Phil Cowan">
           </div>
-
 
           <!-- <div class="bio"> -->
           <div class="col s12 m7 l8">
@@ -106,44 +104,42 @@
     </div>
   </div> -->
 
-
-  <div class="container">
-    <div class="carousel carousel-slider center">
-      <div class="carousel-item white-text" id="project1" href="#one!">
-        <h2>Food Truck Network</h2>
-        <span><a class="white-text" href="https://github.com/phil4lif/FoodTruck" target="_blank">Repo</a></span>
-
-      </div>
-
-      <div class="carousel-item white-text" id="project2" href="#two!">
-        <h2>React Reading List</h2>
-        <span>
-          <a class="white-text" target="_blank" href="https://librarymern.herokuapp.com/">Live</a> |
-          <a class="white-text" target="_blank" href="https://github.com/phil4lif/mern-library">Repo</a>
-        </span>
-      </div>
-
-      <div class="carousel-item white-text" id="project3" href="#three!">
-        <h2>Burger CRUD</h2>
-        <span>
-          <a class="white-text" target="_blank" href="https://boiling-dawn-49572.herokuapp.com/">Live</a> |
-          <a class="white-text" target="_blank" href="https://github.com/phil4lif/burger">Repo</a>
-        </span>
-      </div>
-
-      <div class="carousel-item white-text" id="project4" href="#four!">
-        <h2>React Memory Game</h2>
-        <span>
-          <a class="white-text" target="_blank" href="https://phil4lif.github.io/clicky/">Live</a> |
-          <a class="white-text" target="_blank" href="https://github.com/clicky/">Repo</a>
-        </span>
+  <div class="section black" id="projects">
+    <div class="container">
+      <h2 class="header white-text text-darken-3 lighten-3">Projects</h2>
+      <div class="carousel carousel-slider center">
+        <div class="carousel-item white-text" id="project1" href="#one!">
+          <h2>Food Truck Network</h2>
+          <span><a class="white-text" href="https://github.com/phil4lif/FoodTruck" target="_blank">Repo</a></span>
+  
+        </div>
+  
+        <div class="carousel-item white-text" id="project2" href="#two!">
+          <h2>React Reading List</h2>
+          <span>
+            <a class="white-text" target="_blank" href="https://librarymern.herokuapp.com/">Live</a> |
+            <a class="white-text" target="_blank" href="https://github.com/phil4lif/mern-library">Repo</a>
+          </span>
+        </div>
+  
+        <div class="carousel-item white-text" id="project3" href="#three!">
+          <h2>Burger CRUD</h2>
+          <span>
+            <a class="white-text" target="_blank" href="https://boiling-dawn-49572.herokuapp.com/">Live</a> |
+            <a class="white-text" target="_blank" href="https://github.com/phil4lif/burger">Repo</a>
+          </span>
+        </div>
+  
+        <div class="carousel-item white-text" id="project4" href="#four!">
+          <h2>React Memory Game</h2>
+          <span>
+            <a class="white-text" target="_blank" href="https://phil4lif.github.io/clicky/">Live</a> |
+            <a class="white-text" target="_blank" href="https://github.com/clicky/">Repo</a>
+          </span>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="section black" id="projects">
-    <div class="row container">
-      <h2 class="header white-text text-darken-3 lighten-3">Projects</h2>
+    <!-- <div class="row container">
       <div class="row">
         <div class="col s12 m6">
           <div class="card">
@@ -308,11 +304,11 @@
         </div>
       </div>
 
-    </div>
-  </div>
-  <div class="parallax-container">
+    </div> -->
+  </div> 
+  <!-- <div class="parallax-container">
     <div class="parallax"><img src="assets/images/sambglarge.jpg"></div>
-  </div>
+  </div> -->
   <div id="bio" class="section black">
     <div class="row container">
       <div class="row">
@@ -327,6 +323,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
       $(document).ready(function () {
+        $('.materialboxed').materialbox();
         $('.parallax').parallax();
         $('.sidenav').sidenav();
         $('.scrollspy').scrollSpy();
@@ -338,5 +335,4 @@
 
     </script>
 </body>
-
 </html>

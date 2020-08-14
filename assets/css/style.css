@@ -48,13 +48,13 @@ body{
     height: 800px;
 }
 
-.me {
-    width: 100%;
-}
 .cardlink {
     color: black;
 }
-
+#headshot {
+    border-radius: 50%;
+    width: 100%;
+}
 .bio{
     margin: 0px;
     font-size: 18px; 
@@ -65,6 +65,9 @@ body{
 .myheader {
     padding:0px;
     padding-top:10px;
+}
+.picandbio{
+    margin-top: 150px;
 }
 
    @media screen and (min-width: 608px){
