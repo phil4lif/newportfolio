@@ -1,9 +1,8 @@
 body{
     background-color: black;
 }
-.carousel-item {
-    height: 300px;
-    width: 300px;
+#project2 {
+    background-image: url("../images/valentin-rechitean-elFPAMiuxOo-unsplash.jpg");
 }
 .name {
     margin: 0;
