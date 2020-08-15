@@ -1,6 +1,40 @@
 body{
     background-color: black;
 }
+.pheading{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.ptext{
+    background-color: rgba(0,0,0,0.5);
+    width: auto;
+}
+#project1 {
+    background-image: url("../images/foodtruck.jpg");
+    background-size: cover;
+    width: 70%;
+    padding-top: 40px;
+}
+#project2 {
+    background-image: url("../images/valentin-rechitean-elFPAMiuxOo-unsplash.jpg");
+    background-size: cover;
+    width: 70%;
+    padding-top: 40px;
+}
+#project3 {
+    background-image: url("../images/spencer-davis-o_XkavUaGEw-unsplash2.jpg");
+    background-size: cover;
+    width: 70%;
+    padding-top: 40px;
+}
+#project4 {
+    background-image: url("../images/dogmemory.jpg");
+    background-size: cover;
+    width: 70%;
+    padding-top: 40px;
+}
+
 .name {
     margin: 0;
     /* font-size: 64px; */
@@ -26,13 +60,13 @@ body{
     height: 800px;
 }
 
-.me {
-    width: 100%;
-}
 .cardlink {
     color: black;
 }
-
+#headshot {
+    border-radius: 25%;
+    width: 100%;
+}
 .bio{
     margin: 0px;
     font-size: 18px; 
@@ -43,6 +77,10 @@ body{
 .myheader {
     padding:0px;
     padding-top:10px;
+}
+.picandbio{
+    margin-top: 120px;
+    margin-bottom: 100px;
 }
 
    @media screen and (min-width: 608px){
