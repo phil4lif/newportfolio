@@ -34,6 +34,12 @@ body{
     width: 70%;
     padding-top: 40px;
 }
+#project5 {
+    background-image: url("../images/bamazoncust.png");
+    background-size: cover;
+    width: 70%;
+    padding-top: 40px;
+}
 
 .name {
     margin: 0;
