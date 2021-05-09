@@ -43,27 +43,27 @@ body{
 
 .name {
     margin: 0;
-    /* font-size: 64px; */
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 500;
     font-family: Arial, Helvetica, sans-serif
 }
 /* body :hover{
     box-shadow: 10px 10px grey;
 } */
 .githubicon{
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     /* margin-right: 20px; */
     margin-bottom: 0px;
     float: right;
 }
 .linkedinicon{
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     margin-bottom: 0px;
 }
 .parallax-container {
-    height: 800px;
+    height: 100vh;
 }
 
 .cardlink {
@@ -89,21 +89,22 @@ body{
     margin-bottom: 100px;
 }
 
+
    @media screen and (min-width: 608px){
     .myheader{
-        height:155px;
+        height:100px;
     }
    }
 @media screen and (max-width: 599px){
     .githubicon{
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
         /* margin-right: 20px; */
         margin-bottom: 0px;
     }
     .linkedinicon{
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
         margin-bottom: 0px;
     }
 }
